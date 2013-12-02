@@ -11,29 +11,29 @@
 
 			<fieldset>
 				<legend>Accountgegevens</legend>
-				<input type="hidden" name="uid" value="34562">
-				<label for="gebruikersnaam">Gebruikersnaam</label><input type="text" name="gebruikersnaam" value="" id="gebruikersnaam">
-				<label for="wachtwoord1">Wachtwoord</label><input type="password" name="wachtwoord1" value="" id="wachtwoord1">
-				<label for="wachtwoord2">Herhaal wachtwoord</label><input type="password" name="wachtwoord2" value="" id="wachtwoord2">	
+				<input type="hidden" name="uid" value="34562" />
+				<label for="gebruikersnaam">Gebruikersnaam</label><input type="text" name="gebruikersnaam" value="" id="gebruikersnaam" />
+				<label for="wachtwoord1">Wachtwoord</label><input type="password" name="wachtwoord1" value="" id="wachtwoord1" />
+				<label for="wachtwoord2">Herhaal wachtwoord</label><input type="password" name="wachtwoord2" value="" id="wachtwoord2" />	
 			</fieldset>
 
 	
 			<fieldset>
 				<legend>Naam</legend>
-				<label for="voornaam">Voornaam</label><input type="text" name="voornaam" value="" id="voornaam">
-				<label for="tussenvoegsel">Tussenvoegsel</label><input type="text" name="tussenvoegsel" value="" id="tussenvoegsel">
-				<label for="achternaam">Achternaam</label><input type="text" name="achternaam" value="" id="achternaam">	
+				<label for="voornaam">Voornaam</label><input type="text" name="voornaam" value="" id="voornaam" />
+				<label for="tussenvoegsel">Tussenvoegsel</label><input type="text" name="tussenvoegsel" value="" id="tussenvoegsel" />
+				<label for="achternaam">Achternaam</label><input type="text" name="achternaam" value="" id="achternaam" />	
 			</fieldset>
 
 			<fieldset>
 				<legend>Geslacht</legend>
-				<input type="radio" name="geslacht" value="m" id="geslacht_m"> <label for="geslacht_m">Man</label>
-				<input type="radio" name="geslacht" value="v" id="geslacht_v"> <label for="geslacht_v">Vrouw</label>
+				<input type="radio" name="geslacht" value="m" id="geslacht_m" /> <label for="geslacht_m">Man</label>
+				<input type="radio" name="geslacht" value="v" id="geslacht_v" /> <label for="geslacht_v">Vrouw</label>
 			</fieldset>
 
 			<fieldset>
 				<legend>Pasfoto</legend>
-				<label for="foto">Bestandsnaam</label> <input type="file" name="foto" value="" id="foto"> 
+				<label for="foto">Bestandsnaam</label> <input type="file" name="foto" value="" id="foto" /> 
 			</fieldset>
 
 			<fieldset>
@@ -200,9 +200,9 @@
 
 			<fieldset>
 				<legend>Nieuwsbrief</legend>
-				<input type="checkbox" name="nieuwsbrief[]" value="dagelijks" id="n_dagelijks"> <label for="n_dagelijks">Dagelijks</label>
-				<input type="checkbox" name="nieuwsbrief[]" value="wekelijks" id="n_wekelijks"> <label for="n_wekelijks">Wekelijks</label>
-				<input type="checkbox" name="nieuwsbrief[]" value="maandelijks" id="n_maandelijks"> <label for="n_maandelijks">Maandelijks</label>
+				<input type="checkbox" name="nieuwsbrief[]" value="dagelijks" id="n_dagelijks" /> <label for="n_dagelijks">Dagelijks</label>
+				<input type="checkbox" name="nieuwsbrief[]" value="wekelijks" id="n_wekelijks" /> <label for="n_wekelijks">Wekelijks</label>
+				<input type="checkbox" name="nieuwsbrief[]" value="maandelijks" id="n_maandelijks" /> <label for="n_maandelijks">Maandelijks</label>
 			</fieldset>
 
 			<fieldset>
@@ -210,7 +210,7 @@
 				<textarea name="Name" rows="8" cols="40"></textarea>
 			</fieldset>
 
-			<p><input type="submit" value="Opslaan"></p>	
+			<p><input type="submit" value="Opslaan" /></p>	
 
 		</form>
 	</body>
